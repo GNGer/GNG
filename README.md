@@ -1,4 +1,4 @@
-###GNG open source ###GNG Smart Contract Open Source Code # # # # # # This Update GNG Contract All Open Source Code ### #20190607 Update # This Update will update the Block Wallet Native APP Source Code and GETH Call Method This will be a long-term process. If you need to use this source code, please note that the original # # Technical Team will not provide technical support and safety maintenance for projects other than GNG Project, please use this open source # #//ByGGER cautiously
+###GNG open source ###GNG Smart Contract Open Source Code # # # # # # This Update GNG Contract All Open Source Code ### #20190607 Update # This Update will update the Block Wallet Native APP Source Code and GETH Call Method This will be a long-term process. If you need to use this source code, please note that the original # # Technical Team will not provide technical support and safety maintenance for projects other than GNG Project, please use this open source cautiously # #//ByGGER 
 
 
 
