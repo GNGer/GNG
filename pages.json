@@ -1,0 +1,190 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/shop/goods",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "用户中心"
+			}
+		},
+
+		{
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "用户分享"
+			}
+		},
+		{
+			"path": "pages/safe/setpwd",
+			"style": {
+				"navigationBarTitleText": "设置密码"
+			}
+		},
+		{
+			"path": "pages/safe/setpaypwd",
+			"style": {
+				"navigationBarTitleText": "设置支付密码"
+			}
+		},
+		{
+			"path": "pages/quotation/quotation",
+			"style": {
+				"navigationBarTitleText": "行情"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/news/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/help/news",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/help/detail",
+			"style": {
+				"navigationBarTitleText": "帮助中心详情"
+			}
+		}, {
+			"path": "pages/assets/assets",
+			"style": {
+				"navigationBarTitleText": "币种"
+			}
+		}, {
+			"path": "pages/assets/detail",
+			"style": {
+				"navigationBarTitleText": "查看详情"
+			}
+		}, {
+			"path": "pages/rech/rech",
+			"style": {
+				"navigationBarTitleText": "充币"
+			}
+		}, {
+			"path": "pages/draw/draw",
+			"style": {
+				"navigationBarTitleText": "提币"
+			}
+		}, {
+			"path": "pages/storage/storage",
+			"style": {}
+		}
+        ,{
+            "path" : "pages/cate/cate",
+            "style" : {
+				"navigationBarTitleText":"分类"
+				}
+        }
+        ,{
+            "path" : "pages/promotion/list",
+            "style" : {
+				"navigationBarTitleText":"限购列表"
+				}
+        }
+        ,{
+            "path" : "pages/promotion/buy",
+            "style" : {
+				"navigationBarTitleText":"限购"
+				}
+        }
+        ,{
+            "path" : "pages/team/list",
+            "style" : {
+				"navigationBarTitleText":"团购列表"
+			}
+        }
+        ,{
+            "path" : "pages/team/buy",
+            "style" : {
+				"navigationBarTitleText":"团购"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "钱包",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png"
+			},
+			{
+				"pagePath": "pages/shop/index",
+				"text": "商城",
+				"iconPath": "static/icon/shop.png",
+				"selectedIconPath": "static/icon/shop-act.png"
+			},
+			{
+				"pagePath": "pages/quotation/quotation",
+				"text": "行情",
+				"iconPath": "static/icon/quotations.png",
+				"selectedIconPath": "static/icon/quotations-active.png"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"text": "新闻",
+				"iconPath": "static/icon/news.png",
+				"selectedIconPath": "static/icon/news-active.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/icon/member.png",
+				"selectedIconPath": "static/icon/member-act.png"
+			}
+		]
+	}
+}
